@@ -15,7 +15,7 @@ public class Main {
 		System.out.print("Sutun: ");
 		sutun = scan.nextInt();
 
-		System.out.println("-1->Mayin\t-2->Mayin Yok\t 9->Önceden Ziyaret Edilen Nokta");
+		System.out.println("-1->Mayin\t-2->Mayin Yok\t 9->Onceden Ziyaret Edilen Nokta");
 		Oyun gm = new Oyun(satir, sutun);
 		gm.start();
 	}
